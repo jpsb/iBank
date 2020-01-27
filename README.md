@@ -11,7 +11,6 @@ cd iBank
 ```
 
 2.  Change your credentials in database.yml
-
 3.  Install gem and execute db:setup
 
 ```
@@ -104,9 +103,9 @@ Transfer-Encoding: chunked
 ```
 
 The authentication information should be included by the client in the headers of each request. The authentication headers (each one is a seperate header) consists of the following params:
--   access-token
--   client
--   uid
+*   access-token
+*   client
+*   uid
 
 ### create a new account
 ```bash
@@ -175,11 +174,11 @@ Response:
 ```
 
 ## Contributing
--   Fork it
--   Create your feature branch (`git checkout -b my-new-feature`)
--   Commit your changes (`git commit -am 'Add some feature'`)
--   Push to the branch (`git push origin my-new-feature`)
--   Create new Pull Request
+*   Fork it
+*   Create your feature branch (`git checkout -b my-new-feature`)
+*   Commit your changes (`git commit -am 'Add some feature'`)
+*   Push to the branch (`git push origin my-new-feature`)
+*   Create new Pull Request
 
 ### Maintaners
 
