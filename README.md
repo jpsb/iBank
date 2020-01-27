@@ -1,31 +1,31 @@
 ## iBank
 
-* Ruby on Rails Bank Account System API made with Rails 6, Ruby 2.6.3 and Postgres 9.5 or superior
+*   Ruby on Rails Bank Account System API made with Rails 6, Ruby 2.6.3 and Postgres 9.5 or superior
 
 ## Installation
-1. Download this repository
+1.  Download this repository
 
 ```
 git clone https://github.com/jpsb/iBank.git
 cd iBank
 ```
 
-2. Change your credentials in database.yml
+2.  Change your credentials in database.yml
 
-3. Install gem and execute db:setup
+3.  Install gem and execute db:setup
 
 ```
 bundle install
 bundle exec rake db:setup
 ```
 
-4. Run the tests
+4.  Run the tests
 
 ```
 rspec
 ```
 
-5. Run the aplication
+5.  Run the aplication
 
 ```
 rails s
@@ -104,9 +104,9 @@ Transfer-Encoding: chunked
 ```
 
 The authentication information should be included by the client in the headers of each request. The authentication headers (each one is a seperate header) consists of the following params:
-- access-token
-- client
-- uid
+-   access-token
+-   client
+-   uid
 
 ### create a new account
 ```bash
@@ -175,12 +175,12 @@ Response:
 ```
 
 ## Contributing
-- Fork it
-- Create your feature branch (`git checkout -b my-new-feature`)
-- Commit your changes (`git commit -am 'Add some feature'`)
-- Push to the branch (`git push origin my-new-feature`)
-- Create new Pull Request
+-   Fork it
+-   Create your feature branch (`git checkout -b my-new-feature`)
+-   Commit your changes (`git commit -am 'Add some feature'`)
+-   Push to the branch (`git push origin my-new-feature`)
+-   Create new Pull Request
 
 ### Maintaners
 
-* [João Paulo Barros](https://github.com/jpsb)
+*   [João Paulo Barros](https://github.com/jpsb)
